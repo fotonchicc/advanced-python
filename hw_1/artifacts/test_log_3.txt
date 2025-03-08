@@ -1,0 +1,67 @@
+Команда: python cli_1_3/wc.py file-1.txt
+Вывод:
+  23   96 1499 file-1.txt
+---
+
+Команда: python cli_1_3/wc.py empty-file.txt
+Вывод:
+0 0 0 empty-file.txt
+---
+
+Команда: python cli_1_3/wc.py file-1.txt file-2.txt empty-file.txt
+Вывод:
+  23   96 1499 file-1.txt
+  51  344 5157 file-2.txt
+   0    0    0 empty-file.txt
+  74  440 6656 total
+---
+
+Команда: python cli_1_3/wc.py
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+Вывод:
+     11      11      24
+--------------
+Утилита wc
+--------------
+Команда: wc file-1.txt
+Вывод:
+  23   96 1499 file-1.txt
+---
+
+Команда: wc empty-file.txt
+Вывод:
+0 0 0 empty-file.txt
+---
+
+Команда: wc file-1.txt file-2.txt empty-file.txt
+Вывод:
+  23   96 1499 file-1.txt
+  51  344 5157 file-2.txt
+   0    0    0 empty-file.txt
+  74  440 6656 total
+---
+
+Команда: wc
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+Вывод:
+     11      11      24
