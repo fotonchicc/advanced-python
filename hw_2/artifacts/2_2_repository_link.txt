@@ -1,0 +1,3 @@
+Ссылка на репозиторий в PyPI: https://pypi.org/project/latex-generator-fotonchicc/0.0.1/
+
+Дополнительно ссылка на репозиторий в github: https://github.com/fotonchicc/latex-generator
