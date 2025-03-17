@@ -1,0 +1,11 @@
+[project]
+name = "advanced-python"
+version = "0.2.0"
+description = "Advanced Python course homeworks"
+authors = [
+    { name="fotonchicc", email="sv.markelova11@gmail.com" }
+]
+dependencies = [
+    "latex_generator_fotonchicc==0.0.1",
+]
+requires-python = ">=3.9"
