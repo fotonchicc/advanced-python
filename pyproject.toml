@@ -1,11 +1,16 @@
-[project]
+[tool.poetry]
 name = "advanced-python"
-version = "0.2.0"
+version = "0.3.0"
 description = "Advanced Python course homeworks"
-authors = [
-    { name="fotonchicc", email="sv.markelova11@gmail.com" }
-]
-dependencies = [
-    "latex_generator_fotonchicc==0.0.1",
-]
-requires-python = ">=3.9"
+authors = ["fotonchicc <sv.markelova11@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+latex-generator-fotonchicc = "0.0.1"
+numpy = "2.2.4"
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
