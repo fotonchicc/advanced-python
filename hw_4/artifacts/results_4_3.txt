@@ -1,0 +1,24 @@
+[2025-04-01 20:06:36] [MAIN] В процесс A отправлено сообщение: AAA
+[2025-04-01 20:06:39] [MAIN] В процесс A отправлено сообщение: ccccc
+[2025-04-01 20:06:41] [PROC_A] В процесс B отправлено сообщение: aaa
+[2025-04-01 20:06:41] [PROC_B]  Encoded aaa -> nnn
+[2025-04-01 20:06:45] [MAIN] В процесс A отправлено сообщение: DgDgDg
+[2025-04-01 20:06:46] [PROC_A] В процесс B отправлено сообщение: ccccc
+[2025-04-01 20:06:46] [PROC_B]  Encoded ccccc -> ppppp
+[2025-04-01 20:06:49] [MAIN] В процесс A отправлено сообщение: concurrent.futures
+[2025-04-01 20:06:51] [PROC_A] В процесс B отправлено сообщение: dgdgdg
+[2025-04-01 20:06:51] [PROC_B]  Encoded dgdgdg -> qtqtqt
+[2025-04-01 20:06:54] [MAIN] В процесс A отправлено сообщение: multiprocessing
+[2025-04-01 20:06:56] [MAIN] Инициировано завершение работы
+[2025-04-01 20:06:56] [PROC_A] В процесс B отправлено сообщение: concurrent.futures
+[2025-04-01 20:06:56] [PROC_B]  Encoded concurrent.futures -> pbapheerag.shgherf
+[2025-04-01 20:07:01] [PROC_A] В процесс B отправлено сообщение: multiprocessing
+[2025-04-01 20:07:01] [PROC_B]  Encoded multiprocessing -> zhygvcebprffvat
+[2025-04-01 20:07:01] [PROC_A] Процесс A завершает работу
+[2025-04-01 20:07:01] [PROC_B] Процесс B завершает работу
+[2025-04-01 20:07:01] [QUEUE]  Encoded aaa -> nnn
+[2025-04-01 20:07:01] [QUEUE]  Encoded ccccc -> ppppp
+[2025-04-01 20:07:01] [QUEUE]  Encoded dgdgdg -> qtqtqt
+[2025-04-01 20:07:01] [QUEUE]  Encoded concurrent.futures -> pbapheerag.shgherf
+[2025-04-01 20:07:01] [QUEUE]  Encoded multiprocessing -> zhygvcebprffvat
+[2025-04-01 20:07:01] [MAIN] Программа завершена

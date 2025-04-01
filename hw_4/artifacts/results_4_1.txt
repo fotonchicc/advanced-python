@@ -1,0 +1,3 @@
+Synchronous execution: 16.46 sec
+Threading execution: 15.72 sec
+Multiprocessing execution: 2.16 sec
